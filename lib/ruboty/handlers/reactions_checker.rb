@@ -16,6 +16,7 @@ module Ruboty
         client = Slack::Client.new token: token
 
         return unless message.original[:thread_ts]
+        return unless message.original[:channel]['id']
 
         reactions = client.reactions_get(
           channel: message.original[:channel]['id'],
