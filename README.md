@@ -1,6 +1,7 @@
 # Ruboty::Reactions_checker
 
 Ruboty handler to mention members who is not reacting.
+This is for Slack bot.
 
 ## Installation
 
@@ -17,7 +18,7 @@ SALCK_TOKEN - Slack API Token
 ```
 
 ## Usage
-
+In thread you want to check users reactions:
 ```
 @ruboty check reactions <option(optional)> <message(optional)>
 ```
