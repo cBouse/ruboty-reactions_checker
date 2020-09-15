@@ -1,7 +1,6 @@
 # Ruboty::Reactions_checker
 
-Ruboty handler to mention members who is not reacting.
-This is for Slack bot.
+Ruboty handler to mention members who is not reacting. This is for a Slack bot.
 
 ## Installation
 
